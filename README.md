@@ -33,21 +33,6 @@ Software :
 5. Save models and vectorizer to models/.
 6. Allow single-text prediction and batch prediction (manual tests), and show evaluation metrics.
 
-## Project structure
-fake-news-detection/
-├─ data/
-│  ├─ Fake.csv
-│  ├─ True.csv
-│  └─ manual_testing.csv   # optional
-├─ models/                 # (created by training)
-├─ src/
-│  ├─ train.py             # trains all 3 models and saves them
-│  ├─ predict.py           # CLI predict single text (uses saved vectorizer+model)
-│  ├─ evaluate.py          # runs evaluation on dataset(s)
-│  └─ app.py               # tiny Flask UI (uses logistic model by default)
-├─ requirements.txt
-└─ README.md
-
 ## Pipeline explanation:
 
 1) Preprocessing (text cleaning)
@@ -91,13 +76,18 @@ fake-news-detection/
 ## Project Screenshots
 
 Classification_report: 
-1) Logistic 
+
+1) Logistic_regression
+
 ![Logistic_regression](Screen_shots/Logistic_regression_report.png)
 
-2) Random_forest  
+
+2) Random_forest
+   
 ![Random_forest](Screen_shots/Random_forest_report.png)
 
 3) Naive_bayes
+   
 ![Naive_bayes_](Screen_shots/Naive_bayes_report.png)
 
 Prediction results:
