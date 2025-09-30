@@ -1,0 +1,5 @@
+{
+    "logistic_regression": 0.9868596881959911,
+    "random_forest": 0.9972160356347439,
+    "naive_bayes": 0.9309576837416481
+}
