@@ -88,6 +88,24 @@ fake-news-detection/
 - We split the combined dataset using train_test_split(..., stratify=y, test_size=0.15 or 0.2).
 - Stratify ensures the class ratio (fake/real) is preserved in train and test.
 
+## Project Screenshots
+
+Classification_report: 
+1) Logistic 
+![Logistic_regression](Screen_shots/Logistic_regression_report.png)
+
+2) Random_forest  
+![Random_forest](Screen_shots/Random_forest_report.png)
+
+3) Naive_bayes
+![Naive_bayes_](Screen_shots/Naive_bayes_report.png)
+
+Prediction results:
+1) Real_news
+![real](Screen_shots/Real_news_prediction.png)
+
+2) Fake_news
+![real](Screen_shots/Fake_news_prediction.png)
 
 ## Usage:
 
